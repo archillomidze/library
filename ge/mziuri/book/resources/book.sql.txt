@@ -1,0 +1,14 @@
+/* CREATE TABLE author(
+    id INT PRIMARY KEY NOT NULL, 
+    name VARCHAR(100), 
+    surname VARCHAR(100), 
+    country VARCHAR(100)
+);
+
+CREATE TABLE book(
+    id INT PRIMARY KEY NOT NULL, 
+    name VARCHAR(100), 
+    year INT, 
+    raiting INT CHECK (raiting >=0 AND raiting <=100),
+     author_id INT REFERENCES author(id)
+);*/
